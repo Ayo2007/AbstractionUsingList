@@ -11,7 +11,7 @@ import SwiftUI
 struct AbstractionUsingListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DetailView(item: rom)
         }
     }
 }
